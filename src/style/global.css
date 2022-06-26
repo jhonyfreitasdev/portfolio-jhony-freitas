@@ -1,0 +1,24 @@
+.cabecalho{
+    background-color: var(--primary);
+}
+
+.principal{
+    background-color: var(--primary-light);
+}
+
+.sobre{
+    background-color:aquamarine;
+}
+
+.habilidades{
+    background-color: var(--primary-light);
+}
+
+.projetos{
+    background-color: aqua;
+}
+
+.contato{
+    background-color: var(--primary-light);
+}
+
