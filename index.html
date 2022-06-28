@@ -9,9 +9,11 @@
     <title>Portfólio - Jhony Freitas</title>
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="src/style/reset.css">
     <link rel="stylesheet" href="src/style/variables.css">
+    <link rel="stylesheet" href="src/style/reset.css">
     <link rel="stylesheet" href="src/style/global.css">
+
+    <script src="https://kit.fontawesome.com/175737275d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -37,12 +39,12 @@
         </section>
 
         <section class="sobre" id="sobre">
-            <img src="#" alt="Foto de Jhony" class="foto">
+            <img src="src/images/foto.jpg" alt="Foto de Jhony" class="foto">
 
             <div class="info">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quam unde quas officia delectus exercitationem, impedit recusandae fugiat. Rerum repellendus suscipit quasi rem repudiandae ullam eligendi eos voluptatum, cupiditate harum.</p>
 
-                <a href="">Currículo <img src="src/images/seta-download.png" alt="Download"></a>
+                <a href="">Currículo <i class="fa-regular fa-circle-down"></i></a>
             </div>
         </section>
 
@@ -50,31 +52,40 @@
             <h2>Habilidades</h2>
 
             <ul class="icones">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><i class="fa-brands fa-html5"></i></li>
+                <li><i class="fa-brands fa-css3-alt"></i></li>
+                <li><i class="fa-brands fa-js"></i></li>
+                <li><i class="fa-brands fa-git-alt"></i></li>
+                <li><i class="fa-brands fa-github"></i></i></li>
             </ul>
         </section> 
 
         <section class="projetos" id="projetos">
-            <a href="#"><img src="#" alt="Seta esquerda"></a>
-            <a href="#"><img src="#" alt="Seta direita"></a>
+            <a class="setas" id="seta-esquerda" href="#voltar"><img src="#" alt="Seta esquerda"></a>
 
             <div class="projeto">
-                <img src="https://via.placeholder.com/750x550" alt="Projeto computador" class="desktop">
+                <div class="coluna1">
+                    <div class="desktop">
+                        <img class="img-desktop" src="https://via.placeholder.com/650x500" alt="Projeto computador">
+                    </div>
 
-                <div class="descricao">
-                    <h3>Nome Projeto</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa mollitia nesciunt natus nam aut quisquam, perspiciatis ullam voluptatem est exercitationem ipsa ipsam esse aspernatur nostrum minima ea et soluta beatae.</p>
+                    <button class="btn-link-projeto">Acesse o projeto</button>
+                    
                 </div>
 
-                <button class="link-projeto">Acesse o projeto</button>
-
-                <img src="https://via.placeholder.com/250x400" alt="Projeto celular" class="mobile">
+                <div class="coluna2">
+                    <div class="descricao">
+                        <h3>Nome Projeto</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quibusdam laudantium eligendi. Tempora vitae unde repellat necessitatibus, voluptatibus nihil consequatur animi repellendus excepturi perspiciatis reprehenderit eaque amet cumque officiis. Consequuntur.
+                        </p>
+                    </div>
+                    <div class="mobile">
+                        <img class="img-mobile" src="https://via.placeholder.com/250x400" alt="Projeto celular">
+                    </div>
+                </div>
             </div>
+
+            <a class="setas" id="seta-direita" href="#avancar"><img src="#" alt="Seta direita"></a>
         </section>
 
         <section class="contato">
