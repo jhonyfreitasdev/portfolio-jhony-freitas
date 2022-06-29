@@ -3,20 +3,35 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
+    padding: 30px 40px;
     max-width: 1950px;
     margin: 0 auto;
+}
+
+.cabecalho .logo{
+    width: 100px;
+
 }
 
 .cabecalho .menu{
     display: flex; 
 }
 
+.cabecalho .menu li {
+    margin: 0 5px;
+}
+
 .cabecalho .menu li a{
     font-family: var(--font-primary);
     color: #ffffff;
-    margin: 15px;
+    padding: 0 15px;
     font-size: 1.9rem;
+    transition: 0.4s ease-in-out;
+}
+
+.cabecalho .menu li a:hover{
+    font-weight: 700;
+    font-size: 2rem;
 }
 
 
@@ -31,6 +46,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 50px 0 100px 0;
+    transition: 0.8s ease-out;
 }
 
 .principal .info{
@@ -40,14 +56,28 @@
 
 .principal .info h1{
     font-family: var(--font-primary);
-    font-size: 6rem;
+    font-size: 6.2rem;
     font-weight: 700;
     margin-bottom: 20px;
+    text-shadow: #07000a6c 10px 10px 13px;
 }
 
 .principal .info p{
     font-weight: 500;
-    font-size: 1.9rem;
+    font-size: 2.4rem;
+    text-shadow: #07000a6c 10px 10px 13px;
+}
+
+.principal .info i{
+    color: #ffffff;
+    font-size: 30px;
+    margin: 20px 10px 0 10px;
+    text-shadow: #07000a6c 10px 10px 13px;
+    transition: 0.3s ease-in-out;
+}
+
+.principal .info i:hover{
+    transform: translateY(-2px) translateX(-1px); 
 }
 
 .principal img{
@@ -60,7 +90,6 @@
     display: flex;
     justify-content: center;
     padding: 90px 0;
-    animation: animate__backInUp;
 }
 
 .sobre .info{
@@ -82,6 +111,12 @@
     border-radius: 15px;
     color: #ffffff;
     font-size: 2rem;
+    transition: 0.3s ease-in-out;
+}
+
+.sobre .info a:hover{
+    box-shadow: #ffffff18 2px 2px 10px;
+    transform: translateY(-2px);
 }
 
 .sobre .info a i{
@@ -90,22 +125,24 @@
 }
 
 
-.habilidades {
+.tecnologias {
     background-image: linear-gradient(to bottom,var(--primary), var(--secondary-dark), var(--primary));
-    padding: 180px 0;
+    padding: 180px 30px;
 }
 
-.habilidades h2{
+.tecnologias h2{
     font-family: var(--font-primary);
     text-align: center;
     font-size: 4rem;
     margin-bottom: 70px;
+    text-shadow: #07000a6c 10px 10px 13px;
 }
 
-.habilidades .icones{
+.tecnologias .icones{
     display: flex;
     justify-content: space-evenly;
     font-size: 100px;
+    text-shadow: #07000a8f 13px 17px 15px;
 }
 
 .fa-html5{
@@ -131,19 +168,25 @@
 
 .projetos{
     display: flex;
-    justify-content: space-evenly;
-    padding: 60px 0;
+    justify-content:center;
+    padding: 60px 0 100px 0;
     background-color: var(--primary);
 }
 
 .projetos .setas{
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 75px;
     border-radius: 10px;
 }
 
+.projetos .setas img{
+    width: 30px;
+}
+
 .projeto{
+    position: relative;
     display: flex;
     justify-content: center;
 }
@@ -162,13 +205,27 @@
 .projeto .coluna1 .btn-link-projeto{
     align-self: flex-start;
     background-color: var(--secondary);
-    padding: 20px;
+    padding: 15px;
     margin-top: 15px;
     color: #ffffff;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-family: var(--font-secondary);
     border-radius: 15px;
+}
+
+.projeto .coluna1 .links-projetos{
+    position: absolute;
+    background-color: #ffffff;
+    width: 370px;
+    padding: 20px;
+    border-radius: 15px;
+    top:80%;
+    left: 23%;
+}
+
+.projeto .coluna1 .links-projetos a{
+    font-size: 1.7rem;
 }
 
 .projeto .coluna2{
@@ -178,40 +235,62 @@
 
 .projeto .coluna2 .descricao{
     margin-bottom: 30px;
+    padding-right: 20px;
 }
 
 .projeto .coluna2 .descricao h3{
     font-family: var(--font-primary);
     margin-bottom: 20px;
-    font-size: 3.1rem;
+    font-size: 3rem;
 }
 
 .projeto .coluna2 .descricao p{
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: 300;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.projeto .coluna2 .mobile{
+    align-self: flex-end;
+    padding-right: 25px;
+}
 
 
 .contato{
+    background-image: linear-gradient(to bottom,var(--primary), var(--secondary-dark));
+    padding: 140px 30px 60px 30px;
     text-align: center;
 }
 
 .contato .redes-sociais{
     display: flex;
     justify-content: center;
+    margin: 20px 0 90px 0;
+    text-shadow: #07000a8f 13px 17px 15px;
+}
+
+.contato .redes-sociais li{
+    margin: 15px;
+}
+
+.contato .redes-sociais li a i{
+    color: #ffffff;
+    font-size: 40px;
+    transition: 0.3s ease-in-out;
+}
+
+.contato .redes-sociais li a i:hover{
+    transform: translateY(-2px) translateX(-1px); 
+}
+
+.contato h3{
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 7px;
+    text-shadow: #07000a6c 10px 10px 13px;
+}
+
+.contato p {
+    font-size: 1.5rem;
+    color: #a0a0a0;
 }

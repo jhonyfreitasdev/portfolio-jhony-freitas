@@ -8,7 +8,7 @@
     <meta name="description" content="Portfólio pessoal de Jhony Freitas">
     <title>Portfólio - Jhony Freitas</title>
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="src/images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="src/style/variables.css">
     <link rel="stylesheet" href="src/style/reset.css">
     <link rel="stylesheet" href="src/style/global.css">
@@ -18,11 +18,11 @@
 
 <body>
     <header class="cabecalho">
-        <img src="https://via.placeholder.com/100" alt="Logo do site" class="logo">
+        <a href="index.html"><img src="src/images/logo.png" alt="Logo do site" class="logo"></a>
 
         <ul class="menu">
             <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#tecnologias">Tecnologias</a></li>
             <li><a href="#projetos">Projetos</a></li>
             <li><a href="#contato">Contato</a></li>
         </ul>
@@ -32,14 +32,17 @@
         <section class="principal">
             <div class="info">
                 <h1>Jhony Freitas</h1>
-                <p>Desenvolvedor Front-end júnior</p>
+                <p>Desenvolvedor Front-end</p>
+                
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
             </div>
 
             <img src="src/images/image-principal.png" alt="Ilustração principal">
         </section>
 
         <section class="sobre" id="sobre">
-            <img src="src/images/foto.jpg" alt="Foto de Jhony" class="foto">
+            <img src="src/images/foto.png" alt="Foto de Jhony" class="foto">
 
             <div class="info">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quam unde quas officia delectus exercitationem, impedit recusandae fugiat. Rerum repellendus suscipit quasi rem repudiandae ullam eligendi eos voluptatum, cupiditate harum.</p>
@@ -48,8 +51,8 @@
             </div>
         </section>
 
-        <section class="habilidades" id="habilidades">
-            <h2>Habilidades</h2>
+        <section class="tecnologias" id="tecnologias">
+            <h2> Tecnologias </h2>
 
             <ul class="icones">
                 <li><i class="fa-brands fa-html5"></i></li>
@@ -61,16 +64,18 @@
         </section> 
 
         <section class="projetos" id="projetos">
-            <a class="setas" id="seta-esquerda" href="#voltar"><img src="#" alt="Seta esquerda"></a>
+            <a class="setas" id="seta-esquerda" href="#voltar"><img src="src/images/seta-esquerda.png" alt="Seta esquerda"></a>
 
             <div class="projeto">
-                <div class="coluna1">
-                    <div class="desktop">
-                        <img class="img-desktop" src="https://via.placeholder.com/650x500" alt="Projeto computador">
-                    </div>
+                <div class="coluna1">    
+                    <img class="desktop" src="https://via.placeholder.com/650x500" alt="Projeto computador">
+                
+                    <button class="btn-link-projeto">Acesse o projeto 🚀</button>
 
-                    <button class="btn-link-projeto">Acesse o projeto</button>
-                    
+                    <div class="links-projetos">
+                        <a href="#">Veja o projeto hospedado no site</a>
+                        <a href="#">Acesse o repositório do projeto</a>
+                    </div>
                 </div>
 
                 <div class="coluna2">
@@ -79,25 +84,25 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quibusdam laudantium eligendi. Tempora vitae unde repellat necessitatibus, voluptatibus nihil consequatur animi repellendus excepturi perspiciatis reprehenderit eaque amet cumque officiis. Consequuntur.
                         </p>
                     </div>
-                    <div class="mobile">
-                        <img class="img-mobile" src="https://via.placeholder.com/250x400" alt="Projeto celular">
-                    </div>
+                    
+                    <img class="mobile" src="https://via.placeholder.com/250x390" alt="Projeto celular">
                 </div>
             </div>
 
-            <a class="setas" id="seta-direita" href="#avancar"><img src="#" alt="Seta direita"></a>
+            <a class="setas" id="seta-direita" href="#avancar"><img src="src/images/seta-direita.png" alt="Seta direita"></a>
         </section>
 
-        <section class="contato">
-            <h2>Desenvolvedor Front-end</h2>
-
+        <section class="contato" id="contato">
             <ul class="redes-sociais">
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Email</a></li>
-                <li><a href="#">WhatsApp</a></li>
-                <li><a href="#">Instagram</a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
             </ul>
+
+            <h3> Desenvolvedor Front-end </h3>
+            <p> &copy;2022 Jhony Freitas</p>
         </section>
     </main>
 </body>
