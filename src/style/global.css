@@ -182,11 +182,11 @@
 }
 
 .projetos #seta-esquerda:hover{
-    background-image: linear-gradient(to left, black, rgba(29, 29, 29, 0.377));
+    background-image: linear-gradient(to left, black, rgba(255, 255, 255, 0.096));
 }
 
 .projetos #seta-direita:hover{
-    background-image: linear-gradient(to right, black, rgba(29, 29, 29, 0.377));
+    background-image: linear-gradient(to right, black, rgba(255, 255, 255, 0.096));
 }
 
 .projetos .setas img{
@@ -195,6 +195,7 @@
 
 .projeto{
     max-width: 1235px;
+    padding: 15px;
     display: grid;
     grid:
     "desktop descricao" auto 
