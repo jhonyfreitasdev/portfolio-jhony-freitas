@@ -284,6 +284,10 @@
     align-self: flex-end;
 }
 
+.projeto .mobile img{
+    width: 250px;
+}
+
 
 .contato{
     background-image: linear-gradient(to bottom,var(--primary), var(--secondary-dark));
