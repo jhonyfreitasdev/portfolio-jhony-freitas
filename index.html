@@ -19,7 +19,7 @@
 
 <body>
     <header class="cabecalho">
-        <a href="index.html"><img src="src/images/logo.png" alt="Logo do site" class="logo"></a>
+        <a class="logo" href="index.html"><img src="src/images/logo.png" alt="Logo do site"></a>
 
         <ul class="menu">
             <li><a href="#sobre">Sobre</a></li>
@@ -35,22 +35,28 @@
                 <h1>Jhony Freitas</h1>
                 <p>Desenvolvedor Front-end</p>
 
-                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href=""><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jhony-freitas/" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/jhonyfreitasdev" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
             </div>
 
             <img src="src/images/image-principal.png" alt="Ilustração principal">
         </section>
 
         <section class="sobre" id="sobre">
-            <img src="src/images/foto.png" alt="Foto de Jhony" class="foto">
+            <img class="foto" src="src/images/foto.png" alt="Foto de Jhony">
 
             <div class="info">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quam unde quas officia delectus
                 exercitationem, impedit recusandae fugiat. Rerum repellendus suscipit quasi rem repudiandae ullam
                 eligendi eos voluptatum, cupiditate harum.</p>
 
-                <a href="">Currículo <i class="fa-regular fa-circle-down"></i></a>
+                <a href="src/files/jhonyFreitas.pdf" download="Currículo Jhony Freitas" type="application/pdf">
+                    Currículo <i class="fa-regular fa-circle-down"></i>
+                </a>
             </div>
         </section>
 
@@ -67,18 +73,26 @@
         </section>
 
         <section class="projetos" id="projetos">
-            <a class="setas" id="seta-esquerda" href="#voltar"><img src="src/images/seta-esquerda.png" alt="Seta esquerda"></a>
+            <a class="setas" id="seta-esquerda" href="#voltar">
+                <img src="src/images/seta-esquerda.png" alt="Seta esquerda">
+            </a>
 
             <div class="projeto">
                 <div class="desktop">
-                    <img class="img-desktop" src="https://via.placeholder.com/650x500" alt="Projeto computador">
+                    <img class="img-desktop" src="https://via.placeholder.com/660x450" alt="Projeto computador">
                 </div>
-
+                
+                <div class="descricao">
+                    <h3>Nome Projeto</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quibusdam laudantium
+                    </p>
+                </div>
+                
                 <div class="acesso-projeto">
                     <button class="btn-link-projeto" type="button">Acesse o projeto 🚀</button>
 
                     <div class="links">
-                        <a class="btn-fechar" href="#">
+                        <a id="btn-fechar" href="#fechar">
                             <img src="src/images/btn-fechar.png">
                         </a>
 
@@ -87,31 +101,46 @@
                     </div>
                 </div>
 
-                <div class="descricao">
-                    <h3>Nome Projeto</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quibusdam laudantium
-                    </p>
-                </div>
-
                 <div class="mobile">
-                    <img class="img-mobile" src="https://via.placeholder.com/250x390" alt="Projeto celular">
+                    <img class="img-mobile" src="https://via.placeholder.com/250x395" alt="Projeto celular">
                 </div>
             </div>
 
-            <a class="setas" id="seta-direita" href="#avancar"><img src="src/images/seta-direita.png" alt="Seta direita"></a>
+            <a class="setas" id="seta-direita" href="#avancar">
+                <img src="src/images/seta-direita.png" alt="Seta direita">
+            </a>
         </section>
 
         <section class="contato" id="contato">
             <ul class="redes-sociais">
-                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li>
+                    <a href="https://www.linkedin.com/in/jhony-freitas/" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/jhonyfreitasdev" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:jhony00._@hotmail.com">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=5511948127577&text" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/_jhonyfreitass/?hl=pt-br" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
             </ul>
 
             <h3> Desenvolvedor Front-end </h3>
-            <p> &copy;2022 Jhony Freitas</p>
         </section>
     </main>
 </body>
