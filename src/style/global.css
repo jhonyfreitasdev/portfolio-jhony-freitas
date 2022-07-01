@@ -179,6 +179,7 @@
     width: 55px;
     border-radius: 10px;
     transition: 0.4s ease-in-out;
+    opacity: 0.7;
 }
 
 .projetos #seta-esquerda:hover{
@@ -199,12 +200,16 @@
     max-width: 1235px;
     padding: 15px;
     box-shadow: var(--secondary-dark) 1px 1px 50px;
-    display: grid;
+    display: none;
     grid:
     "desktop descricao" auto 
     "desktop mobile" auto
     "acesso-projeto mobile" 60px
     / 60% 40%;
+}
+
+.projeto.mostrar{
+    display: grid;
 }
 
 .projeto .desktop{
