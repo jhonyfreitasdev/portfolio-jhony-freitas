@@ -217,6 +217,8 @@
     grid-area: desktop;
     justify-self: center;
     align-self: flex-start;
+    border-radius: 15%;
+    overflow: hidden;
 }
 
 .projeto .acesso-projeto{
@@ -288,13 +290,15 @@
 
 .projeto .mobile{
     grid-area: mobile;
-    padding: 40px 90px 20px 0;
-    justify-self: flex-end;
+    justify-self: center;
     align-self: flex-end;
+    border-radius: 6%;
+    overflow: hidden;
 }
 
 .projeto .mobile img{
-    width: 250px;
+    width: 260px;
+    height: 355px;
 }
 
 
