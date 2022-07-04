@@ -179,7 +179,11 @@
     width: 55px;
     border-radius: 10px;
     transition: 0.4s ease-in-out;
-    opacity: 0.7;
+}
+
+.projetos .setas.desabilitar-seta{
+    pointer-events: none;
+    opacity: 0.3;
 }
 
 .projetos #seta-esquerda:hover{
@@ -228,7 +232,7 @@
 }
 
 .projeto .acesso-projeto .btn-link-projeto{
-    background-color: var(--secondary);
+    background-color: var(--secondary-dark);
     padding: 15px;
     margin-left: 40px;
     color: #ffffff;
@@ -240,14 +244,18 @@
 .projeto .acesso-projeto .links{
     display: none;
     position: absolute;
-    background-color: #0f163b;
-    opacity: 0.6;
+    background-color: var(--secondary-dark);
     width: 370px;
     padding: 20px;
     border-radius: 15px;
     top:-50px;
     left: 270px;
     box-shadow: #a0a0a02f 1px 1px 10px;
+    transition: 0.5 ease-in-out;
+}
+
+.projeto .acesso-projeto .links.mostrar-links{
+    display: block;
 }
 
 .projeto .acesso-projeto .links a{
@@ -261,7 +269,8 @@
     text-decoration: underline;
 }
 
-.projeto .acesso-projeto .links #btn-fechar{
+.projeto .acesso-projeto .links .btn-fechar{
+    background-color: var(--secondary-dark);
     position: absolute;
     right: 15px;
     top: 5px;
