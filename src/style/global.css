@@ -217,7 +217,7 @@
 }
 
 .projeto .desktop{
-    padding: 20px;
+    padding: 40px 20px;
     grid-area: desktop;
     justify-self: center;
     align-self: flex-start;
@@ -282,7 +282,7 @@
     flex-direction: column;
     justify-content: flex-end;
     grid-area: descricao;
-    padding: 30px 60px 20px 2px;
+    padding: 30px 60px 30px 2px;
 }
 
 .projeto .descricao h3{
