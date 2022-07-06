@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(30, 0, 255, 0.443);
+    background-color: #1e00ff71;
 }
 
 .cabecalho{
@@ -7,7 +7,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 40px;
+    padding: 40px 50px;
     max-width: 1950px;
     margin: 0 auto;
 }
@@ -45,28 +45,29 @@ body{
 .principal{
     background-image: linear-gradient(to bottom, var(--secondary), var(--secondary), var(--primary));
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding: 50px 0 100px 0;
     transition: 0.8s ease-out;
 }
 
 .principal .info{
-    width: 40%;
+    width: 45%;
     padding-left: 20px;
 }
 
 .principal .info h1{
-    font-family: var(--font-primary);
-    font-size: 6.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5rem;
     font-weight: 700;
     margin-bottom: 20px;
     text-shadow: #07000a6c 10px 10px 13px;
 }
 
 .principal .info p{
-    font-weight: 500;
-    font-size: 2.4rem;
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-size: 2.5rem;
     text-shadow: #07000a6c 10px 10px 13px;
 }
 
@@ -176,7 +177,7 @@ body{
 
 .projetos{
     background-color: var(--primary);
-    padding: 90px 0;
+    padding: 90px 0 120px 0;
 }
 
 .projetos h2{
@@ -337,7 +338,7 @@ body{
 .contato .redes-sociais{
     display: flex;
     justify-content: center;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
     text-shadow: #07000a8f 13px 17px 15px;
 }
 
