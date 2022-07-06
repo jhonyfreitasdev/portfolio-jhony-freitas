@@ -1,5 +1,9 @@
+body{
+    background-color: rgba(30, 0, 255, 0.443);
+}
+
 .cabecalho{
-    background-image: linear-gradient(to bottom, var(--primary), var(--secondary-dark));
+    background-image: linear-gradient(to bottom, var(--primary), var(--secondary));
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,13 +28,12 @@
     font-family: var(--font-primary);
     color: #ffffff;
     padding: 0 15px;
-    font-size: 1.9rem;
+    font-size: 2rem;
     transition: 0.4s ease-in-out;
 }
 
 .cabecalho .menu li a:hover{
     font-weight: 700;
-    font-size: 2rem;
 }
 
 
@@ -40,7 +43,7 @@
 }
 
 .principal{
-    background-image: linear-gradient(to bottom, var(--secondary-dark), var(--secondary-dark), var(--primary));
+    background-image: linear-gradient(to bottom, var(--secondary), var(--secondary), var(--primary));
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -91,6 +94,12 @@
     padding: 100px 20px;
 }
 
+.sobre .foto{
+    overflow: hidden;
+    border-radius:  15% 5% 15% 5%;
+    box-shadow: var(--secondary) 1px 1px 30px;
+}
+
 .sobre .info{
     display: flex;
     flex-direction: column;
@@ -99,6 +108,7 @@
     font-size: 1.9rem;
     padding: 10px 50px;
     font-weight: 300;
+    text-indent: 20px;
 }
 
 .sobre .info a{
@@ -107,15 +117,10 @@
     align-items: center;
     padding: 15px;
     background-color: var(--secondary);
-    border-radius: 15px;
+    border-radius: 15px 7px 15px 7px;
     color: #ffffff;
     font-size: 2rem;
     transition: 0.3s ease-in-out;
-}
-
-.sobre .info a:hover{
-    box-shadow: #ffffff18 2px 2px 10px;
-    transform: translateY(-2px);
 }
 
 .sobre .info a i{
@@ -123,9 +128,14 @@
     font-size: 20px;
 }
 
+.sobre .info a:hover{
+    box-shadow: #ffffff08 1px 2px 10px;
+    transform: translateY(-2px);
+}
+
 
 .tecnologias {
-    background-image: linear-gradient(to bottom,var(--primary), var(--secondary-dark), var(--primary));
+    background-image: linear-gradient(to bottom,var(--primary), var(--secondary), var(--primary));
     padding: 215px 30px;
 }
 
@@ -164,15 +174,25 @@
     color: rgb(222, 184, 135);
 }
 
-
 .projetos{
     background-color: var(--primary);
-    display: flex;
-    justify-content:center;
     padding: 90px 0;
 }
 
-.projetos .setas{
+.projetos h2{
+    font-family: var(--font-primary);
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 50px;
+    text-shadow: #fdfdfd1f 5px 5px 12px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content:center;
+}
+
+.conteudo .setas{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -181,29 +201,27 @@
     transition: 0.4s ease-in-out;
 }
 
-.projetos .setas.desabilitar-seta{
+.conteudo .setas.desabilitar-seta{
     pointer-events: none;
     opacity: 0.3;
 }
 
-.projetos #seta-esquerda:hover{
-    box-shadow: var(--secondary-dark) -6px 0px 11px; 
-    background-color: #110d3018;
+.conteudo #seta-esquerda:hover{
+    box-shadow: #17104125 -6px 0px 40px; 
 }
 
-.projetos #seta-direita:hover{
-    box-shadow: var(--secondary-dark) 6px 0px 11px; 
-    background-color: #110d3018;
+.conteudo #seta-direita:hover{
+    box-shadow: #17104125 6px 0px 40px; 
 }
 
-.projetos .setas img{
+.conteudo .setas img{
     width: 30px;
 }
 
 .projeto{
     max-width: 1235px;
     padding: 15px;
-    box-shadow: var(--secondary-dark) 1px 1px 50px;
+    box-shadow: var(--secondary) 1px 1px 50px;
     display: none;
     grid:
     "desktop descricao" auto 
@@ -232,7 +250,7 @@
 }
 
 .projeto .acesso-projeto .btn-link-projeto{
-    background-color: var(--secondary-dark);
+    background-color: var(--secondary);
     padding: 15px;
     margin-left: 40px;
     color: #ffffff;
@@ -244,13 +262,13 @@
 .projeto .acesso-projeto .links{
     display: none;
     position: absolute;
-    background-color: var(--secondary-dark);
+    background-color: var(--secondary);
     width: 370px;
-    padding: 20px;
+    padding: 15px;
     border-radius: 15px;
     top:-50px;
     left: 270px;
-    box-shadow: #a0a0a02f 1px 1px 10px;
+    box-shadow: #ffffff15 1px 2px 10px;
     transition: 0.5 ease-in-out;
 }
 
@@ -260,7 +278,7 @@
 
 .projeto .acesso-projeto .links a{
     display: block;
-    margin: 7px 0;
+    margin: 10px 0;
     font-size: 1.7rem;
     color: #ffffff;
 }
@@ -270,7 +288,7 @@
 }
 
 .projeto .acesso-projeto .links .btn-fechar{
-    background-color: var(--secondary-dark);
+    background-color: var(--secondary);
     position: absolute;
     right: 15px;
     top: 5px;
@@ -289,7 +307,7 @@
     font-family: var(--font-primary);
     margin-bottom: 20px;
     font-size: 3rem;
-    text-shadow: #fdfdfd1f 6px 6px 12px;
+    text-shadow: #fdfdfd1f 5px 5px 12px;
 }
 
 .projeto .descricao p{
@@ -312,14 +330,14 @@
 
 
 .contato{
-    background-image: linear-gradient(to bottom,var(--primary), var(--secondary-dark));
-    padding: 140px 30px 60px 30px;
+    background-image: linear-gradient(to bottom,var(--primary), var(--secondary));
+    padding: 160px 30px 50px 30px;
 }
 
 .contato .redes-sociais{
     display: flex;
     justify-content: center;
-    margin: 20px 0 90px 0;
+    margin-bottom: 80px;
     text-shadow: #07000a8f 13px 17px 15px;
 }
 
