@@ -3,9 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap');
 
 :root{
-    --primary:#030103;
-    --secondary: #0F163B;
-    --secondary-dark: #110D30;
+    --primary:#050413;
+    --secondary: #171041;
     --font-primary: 'Roboto', sans-serif;
     --font-secondary: 'Montserrat', sans-serif;
 }
