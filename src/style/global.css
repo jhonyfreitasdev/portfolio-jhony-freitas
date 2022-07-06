@@ -308,7 +308,7 @@ body{
     font-family: var(--font-primary);
     margin-bottom: 20px;
     font-size: 3rem;
-    text-shadow: #fdfdfd1f 5px 5px 12px;
+    text-shadow: #fdfdfd1f 4px 4px 12px;
 }
 
 .projeto .descricao p{
