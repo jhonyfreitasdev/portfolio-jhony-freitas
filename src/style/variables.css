@@ -2,9 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap');
 
+@font-face {
+    font-family: 'Bogart';
+    src: url("../fonts/Bogart-Regular-trial.ttf"), url("../fonts/Bogart-Medium-trial.ttf"), url("../fonts/Bogart-Bold-trial.ttf"), url("../fonts/Bogart-Black-trial.ttf") format("truetype");
+}
+
 :root{
     --primary:#050413;
-    --secondary: #171041;
-    --font-primary: 'Roboto', sans-serif;
+    --secondary: #1b134d;
+    --font-primary: 'Bogart', sans-serif;
     --font-secondary: 'Montserrat', sans-serif;
 }
