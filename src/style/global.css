@@ -261,7 +261,7 @@ body{
     grid-area: desktop;
     justify-self: center;
     align-self: flex-start;
-    border-radius: 15%;
+    border-radius: 21%;
     overflow: hidden;
 }
 
