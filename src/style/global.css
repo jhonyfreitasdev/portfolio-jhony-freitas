@@ -123,8 +123,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 60%;
-    font-size: 2rem;
+    width: 59%;
+    font-size: 1.9rem;
     padding: 10px 50px;
     text-indent: 20px;
 }
