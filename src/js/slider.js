@@ -5,30 +5,12 @@ let listaDeProjetos = document.getElementsByClassName("projeto");
 fundoAnterior = 0;
 fundoAtual = 0;
 
-setaAvancar.addEventListener('click', function () {
-    fundoAnterior = fundoAtual;
-    fundoAtual++;
-
-    removeProjetoAnterior();
-    mostrarProjetoAtual();
-    desabilitarSetas();
-});
-
-setaVoltar.addEventListener('click', function () {
-    fundoAnterior = fundoAtual;
-    fundoAtual--;
-
-    removeProjetoAnterior();
-    mostrarProjetoAtual();
-    desabilitarSetas();
-});
+function mostrarProjetoAtual() {
+    listaDeProjetos[fundoAtual].classList.add("mostrar");
+};
 
 function removeProjetoAnterior() {
     listaDeProjetos[fundoAnterior].classList.remove("mostrar");
-};
-
-function mostrarProjetoAtual() {
-    listaDeProjetos[fundoAtual].classList.add("mostrar");
 };
 
 function desabilitarSetas() {
@@ -45,3 +27,26 @@ function desabilitarSetas() {
     };
 };
 
+function fecharSecaoDeLinks(){
+    sessaoDeLinks[fundoAnterior].classList.remove("mostrar-links");  
+};
+
+setaAvancar.addEventListener('click', function () {
+    fundoAnterior = fundoAtual;
+    fundoAtual++;
+
+    removeProjetoAnterior();
+    mostrarProjetoAtual();
+    desabilitarSetas(); 
+    fecharSecaoDeLinks();
+});
+
+setaVoltar.addEventListener('click', function () {
+    fundoAnterior = fundoAtual;
+    fundoAtual--;
+
+    removeProjetoAnterior();
+    mostrarProjetoAtual();
+    desabilitarSetas();    
+    fecharSecaoDeLinks();
+});
