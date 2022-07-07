@@ -126,8 +126,11 @@ body{
     width: 60%;
     font-size: 2rem;
     padding: 10px 50px;
-    font-weight: 300;
     text-indent: 20px;
+}
+
+.sobre .info p{
+    margin: 6px 0;
 }
 
 .sobre .info a{
@@ -323,7 +326,7 @@ body{
     flex-direction: column;
     justify-content: flex-end;
     grid-area: descricao;
-    padding: 30px 60px 30px 2px;
+    padding: 30px 62px 30px 2px;
 }
 
 .projeto .descricao h3{
