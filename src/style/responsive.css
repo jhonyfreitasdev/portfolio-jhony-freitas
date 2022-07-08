@@ -1,0 +1,139 @@
+@media (max-width:1320px) {
+    .sobre .info p{
+        font-size: 1.6rem;
+    }
+
+    
+    .projeto{
+        padding: 5px;
+        max-width: 1000px;
+        grid:
+    "desktop descricao" auto 
+    "desktop mobile" auto
+    "acesso-projeto mobile" 100px
+    / 60% 40%;
+    }
+    .projeto .mobile img{
+        width: 250px;
+        height: 345px;
+    }
+}
+
+@media (max-width:1080px){
+
+
+    .projeto{
+        max-width: 900px;
+    }
+    .projeto .mobile img{
+        width: 240px;
+        height: 335px;
+    }
+    .projeto .descricao p{
+        font-size: 1.6rem;
+    }
+    .projeto .acesso-projeto .links{
+        opacity: 0.8;
+    }
+    .projeto .acesso-projeto .links a{
+        opacity: 1;
+    }
+}
+
+@media (max-width:975px){
+    .sobre .info p{
+        font-size: 1.5rem;
+    }
+
+
+    .conteudo .setas{
+        width: 90px;
+    }
+    .projeto.mostrar{
+        display: flex;
+        flex-direction: column;
+    }
+    .projeto .desktop{
+        border-radius: 18%;
+    }
+    .projeto .mobile {
+        display: none;
+    }
+    .projeto .descricao{
+        padding: 0 30px 30px 60px;
+    }
+    .projeto .acesso-projeto {
+        align-self: flex-start;
+    }
+    .projeto .acesso-projeto .btn-link-projeto{
+        margin: 13px 0 10px 60px;
+    }
+    .projeto .acesso-projeto .links{
+        top:-20px;
+        left: 290px;
+    }
+}
+
+@media (max-width:750px) {
+    .projeto .descricao{
+        padding: 0 30px 30px 20px;
+    }
+    .projeto .acesso-projeto .btn-link-projeto{
+        margin: 13px 0 10px 20px;
+    }
+    .projeto .acesso-projeto .links{
+        left: 250px;
+    }
+}
+
+@media (max-width:675px) {
+    .conteudo .setas img{
+        height: 35px;
+        width: 25px;
+    }
+    .projeto{
+        max-width: 500px;
+    }
+    .projeto .desktop{
+        display: none;
+    }
+    .projeto .mobile {
+        display: block;
+        align-self: center;
+        padding: 22px;
+        border-radius: 25%;
+    }
+    .projeto .mobile img{
+        width: 250px;
+        height: 345px;
+    }
+    .projeto .descricao h3{
+        font-size: 2.5rem;
+    }
+    .projeto .descricao p{
+        font-size: 1.4rem;
+    }
+    .projeto .acesso-projeto{
+        align-self: center;
+    }
+    .projeto .acesso-projeto .btn-link-projeto{
+        margin:10px 0;
+        padding: 15px;
+        font-size: 1.5rem;
+        width: 180px;
+    }
+    .projeto .acesso-projeto .links{
+        width: 300px;
+        padding: 10px;
+        top:-10px;
+        left: -50px;
+        opacity: 1;
+    }
+    .projeto .acesso-projeto .links a{
+        margin: 5px 0;
+        font-size: 1.4rem;
+    }
+    .projeto .acesso-projeto .links .btn-fechar{
+        right: 10px;
+    }
+}
