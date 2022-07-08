@@ -326,12 +326,16 @@
 }
 
 @media (max-width:550px) {
-    /*
-    Menu hamburger;
-    */ 
+    .cabecalho{
+        padding: 40px 40px 100px 40px;
+    } 
+
+    .principal{
+        padding: 60px 30px 200px 30px;
+    }
 
     .tecnologias{
-        padding: 130px 20px;
+        padding: 140px 20px;
     }
     .tecnologias .icones{
         flex-wrap: wrap;   
