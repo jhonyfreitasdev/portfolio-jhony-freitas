@@ -3,7 +3,10 @@
         font-size: 1.6rem;
     }
 
-    
+    .tecnologias .icones{
+        font-size: 90px;
+    }
+
     .projeto{
         padding: 5px;
         max-width: 1000px;
@@ -20,7 +23,13 @@
 }
 
 @media (max-width:1080px){
+    .sobre .info p{
+        font-size: 1.5rem;
+    }
 
+    .tecnologias .icones{
+        font-size: 80px;
+    }
 
     .projeto{
         max-width: 900px;
@@ -41,10 +50,19 @@
 }
 
 @media (max-width:975px){
-    .sobre .info p{
-        font-size: 1.5rem;
+    .sobre{
+        padding: 100px 10px;
     }
-
+    .sobre .info p{
+        font-size: 1.4rem;
+    }
+    .sobre .info a{
+        padding: 10px;
+        font-size: 1.6rem;
+    }
+    .sobre .info a i{
+        font-size: 20px;
+    }
 
     .conteudo .setas{
         width: 90px;
@@ -72,9 +90,40 @@
         top:-20px;
         left: 290px;
     }
+
+    .contato h2{
+        font-size: 3rem;
+    }
+    .contato .redes-sociais li a i{
+        font-size: 39px;
+    } 
+    .contato h3{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:890px){
+    .sobre{
+        flex-direction: column;
+    }   
+    .sobre .info{
+        width: 100%;
+        padding: 30px 50px;
+        text-align: justify;
+    }
 }
 
 @media (max-width:750px) {
+    .tecnologias h2{
+        font-size: 3.5rem;
+    }
+    .tecnologias .icones{
+        font-size: 70px;
+    }
+
+    .projetos h2{
+        font-size: 3.5rem;
+    }
     .projeto .descricao{
         padding: 0 30px 30px 20px;
     }
@@ -84,9 +133,30 @@
     .projeto .acesso-projeto .links{
         left: 250px;
     }
+
+    .contato h2{
+        font-size: 2.8rem;
+    }
 }
 
 @media (max-width:675px) {
+    .sobre .info p{
+        text-indent: 0px;
+    }
+    .sobre .info a{
+        align-self: center;
+    }
+
+    .tecnologias h2{
+        font-size: 3rem;
+    }
+    .tecnologias .icones{
+        font-size: 60px;
+    }
+
+    .projetos h2{
+        font-size: 3rem;
+    }
     .conteudo .setas img{
         height: 35px;
         width: 25px;
@@ -135,5 +205,21 @@
     }
     .projeto .acesso-projeto .links .btn-fechar{
         right: 10px;
+    }
+
+    .contato h2{
+        font-size: 2.5rem;
+    }
+    .contato .redes-sociais li a i{
+        font-size: 35px;
+    } 
+    .contato h3{
+        font-size: 1.9rem;
+    }
+}
+
+@media (max-width:575px) {
+    .tecnologias .icones{
+        flex-wrap: wrap;
     }
 }

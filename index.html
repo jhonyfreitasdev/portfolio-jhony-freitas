@@ -45,7 +45,11 @@
 
         <section class="sobre" id="sobre">
             <div class="foto">
-                <img src="src/images/foto.png" alt="Foto de Jhony">
+                <picture>
+                    <source media="(max-width:675px)" srcset="src/images/foto-pequena.png">
+                    <source media="(max-width:975px)" srcset="src/images/foto-media.png">
+                    <img src="src/images/foto.png" alt="Foto perfil">
+                </picture>
             </div>
 
             <div class="info">

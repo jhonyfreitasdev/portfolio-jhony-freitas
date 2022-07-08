@@ -116,7 +116,6 @@ body{
     border-radius:  15% 5% 15% 5%;
     box-shadow: var(--color04) 1px 1px 30px;
     align-self: center;
-    height: 495px;
 }
 
 .sobre .info{
@@ -130,7 +129,7 @@ body{
 }
 
 .sobre .info p{
-    margin: 5px 0;
+    margin: 4px 0;
 }
 
 .sobre .info a{
