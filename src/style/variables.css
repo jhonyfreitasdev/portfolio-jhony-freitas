@@ -8,8 +8,9 @@
 }
 
 :root{
-    --primary:#050413;
-    --secondary: #1b134d;
+    --color01:#060518;
+    --color02: #1b134d;
+    --color03: #4a6ec9;
     --font-primary: 'Bogart', sans-serif;
     --font-secondary: 'Montserrat', sans-serif;
 }
