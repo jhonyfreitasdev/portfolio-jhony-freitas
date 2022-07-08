@@ -85,7 +85,6 @@ body{
 }
 
 .principal .info a{
-    display: inline-block;
     color: #ffffff;
     background-color: var(--color04);
     font-size: 2.3rem;
@@ -99,7 +98,7 @@ body{
     transform: translateY(-2px) translateX(-1px); 
 }
 
-.principal img{
+.principal .imagem-principal{
     width: 45%;
 }
 
@@ -128,7 +127,7 @@ body{
     text-indent: 20px;
 }
 
-.sobre .info p{
+.sobre .info .texto p{
     margin: 4px 0;
 }
 
@@ -142,7 +141,7 @@ body{
     color: #ffffff;
     border: solid #000000c7 1px;
     font-size: 2rem;
-    margin-top: 10px;
+    margin-top: 15px;
     transition: 0.4s ease-in-out;
 }
 
@@ -309,7 +308,7 @@ body{
     align-items: center;
     justify-content: space-between;
     background-image: linear-gradient(to bottom, var(--color02), var(--color03), var(--color03));
-    width: 220px;
+    width: 225px;
     padding: 18px;
     margin-left: 40px;
     color: #ffffff;
