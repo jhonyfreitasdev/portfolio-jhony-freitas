@@ -3,7 +3,7 @@ body{
 }
 
 .cabecalho{
-    background-image: linear-gradient(to bottom, var(--color01), var(--color02));
+    background-image: linear-gradient(to bottom, var(--color02), var(--color04));
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,7 +43,7 @@ body{
 }
 
 .principal{
-    background-image: linear-gradient(to bottom, var(--color02), var(--color02), var(--color01));
+    background-image: linear-gradient(to bottom, var(--color04), var(--color04), var(--color03));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,10 +87,10 @@ body{
 .principal .info a{
     display: inline-block;
     color: #ffffff;
-    background-color: var(--color02);
+    background-color: var(--color04);
     font-size: 2.3rem;
-    box-shadow: black 1px 1px 10px;
-    padding: 16px 20px;
+    box-shadow: rgba(0, 0, 0, 0.397) 1px 1px 10px;
+    padding: 17px 30px;
     border-radius: 15px 7px 15px 7px;
     transition: 0.3s ease-in-out;
 }
@@ -105,7 +105,7 @@ body{
 
 
 .sobre{
-    background-color: var(--color01);
+    background-image: linear-gradient(to bottom, var(--color03), var(--color02), var(--color01));
     display: flex;
     justify-content: center;
     padding: 100px 20px;
@@ -114,7 +114,7 @@ body{
 .sobre .foto{
     overflow: hidden;
     border-radius:  15% 5% 15% 5%;
-    box-shadow: var(--color02) 1px 1px 30px;
+    box-shadow: var(--color04) 1px 1px 30px;
     align-self: center;
     height: 495px;
 }
@@ -138,12 +138,13 @@ body{
     display: flex;
     align-items: center;
     padding: 15px;
-    background-color: var(--color02);
+    background-color: var(--color03);
     border-radius: 15px 7px 15px 7px;
     color: #ffffff;
+    border: solid #000000c7 1px;
     font-size: 2rem;
     margin-top: 10px;
-    transition: 0.3s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 
 .sobre .info a i{
@@ -151,13 +152,12 @@ body{
 }
 
 .sobre .info a:hover{
-    box-shadow: #ffffff08 1px 2px 10px;
-    transform: translateY(-2px);
+    transform: translateY(-2px) translateX(-1px); 
 }
 
 
 .tecnologias {
-    background-image: linear-gradient(to bottom,var(--color01), var(--color02), var(--color01));
+    background-image: linear-gradient(to bottom,var(--color01), var(--color02), var(--color03),var(--color02), var(--color01));
     padding: 215px 30px;
 }
 
@@ -173,7 +173,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     font-size: 100px;
-    text-shadow: #07000a8f 13px 17px 15px;
+    text-shadow: #07000a8f 15px 19px 14px;
 }
 
 .fa-html5{
@@ -242,8 +242,8 @@ body{
 
 .projeto{
     max-width: 1235px;
-    padding: 15px;
-    box-shadow: var(--color02) 1px 1px 50px;
+    padding: 17px;
+    box-shadow: var(--color03) 1px 1px 50px;
     display: none;
     grid:
     "desktop descricao" auto 
@@ -275,11 +275,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--color02);
+    background-image: linear-gradient(to bottom, var(--color02), var(--color03), var(--color03));
     width: 220px;
     padding: 18px;
     margin-left: 40px;
     color: #ffffff;
+    border: solid #000000d8 1px;
     font-size: 1.9rem;
     font-family: var(--font-secondary);
     border-radius: 15px 7px 15px 7px;
@@ -288,13 +289,12 @@ body{
 .projeto .acesso-projeto .links{
     display: none;
     position: absolute;
-    background-color: var(--color02);
+    background-image: linear-gradient(to bottom, var(--color02), var(--color03), var(--color03));
     width: 370px;
     padding: 15px;
     border-radius: 15px;
     top:-50px;
     left: 270px;
-    box-shadow: #ffffff15 1px 2px 10px;
     transition: 0.5 ease-in-out;
 }
 
@@ -314,7 +314,9 @@ body{
 }
 
 .projeto .acesso-projeto .links .btn-fechar{
-    background-color: var(--color02);
+    display: flex;
+    background-color: var(--color03);
+    border-radius: 50%;
     position: absolute;
     right: 15px;
     top: 5px;
@@ -356,7 +358,7 @@ body{
 
 
 .contato{
-    background-image: linear-gradient(to bottom,var(--color01), var(--color02));
+    background-image: linear-gradient(to bottom,var(--color01), var(--color02), var(--color03), var(--color04));
     padding: 170px 30px 50px 30px;
     text-align: center;
 }

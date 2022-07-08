@@ -8,9 +8,10 @@
 }
 
 :root{
-    --color01:#060518;
-    --color02: #1b134d;
-    --color03: #4a6ec9;
+    --color01: #060518;
+    --color02: #0a0827;
+    --color03: #1b134d;
+    --color04: #332979;
     --font-primary: 'Bogart', sans-serif;
     --font-secondary: 'Montserrat', sans-serif;
-}
+}    
