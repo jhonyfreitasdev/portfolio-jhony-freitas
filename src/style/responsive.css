@@ -231,7 +231,7 @@
 
 @media (max-width:675px) {
     .cabecalho{
-        padding: 40px 50px 100px 50px;
+        padding: 40px 20px 100px 20px;
     }
     .cabecalho .menu{
         display: none;
@@ -339,6 +339,9 @@
     .cabecalho{
         padding: 40px 40px 100px 40px;
     } 
+    .cabecalho .menu.versao-hamburger{
+        right: 49px;
+    }
 
     .principal{
         padding: 60px 30px 200px 30px;
