@@ -77,11 +77,11 @@ body{
 .cabecalho .menu.versao-hamburger{
     display: flex;
     flex-direction: column;
-    background-color: #4342EA;
+    background-image: linear-gradient(to bottom, var(--color02), var(--color03), var(--color03));
     position: absolute;
     right: 20px;
     top: 52px;
-    padding: 35px 40px 13px 13px;
+    padding: 35px 40px 0 13px;
     border-radius: 10px;
     transition: 0.4s ease-in-out;
 }
