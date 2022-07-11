@@ -336,13 +336,6 @@
 }
 
 @media (max-width:550px) {
-    .cabecalho{
-        padding: 40px 40px 100px 40px;
-    } 
-    .cabecalho .menu.versao-hamburger{
-        right: 49px;
-    }
-
     .principal{
         padding: 60px 30px 200px 30px;
     }

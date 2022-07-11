@@ -79,8 +79,8 @@ body{
     flex-direction: column;
     background-color: #4342EA;
     position: absolute;
-    right: 55px;
-    top: 55px;
+    right: 20px;
+    top: 52px;
     padding: 35px 40px 13px 13px;
     border-radius: 10px;
     transition: 0.4s ease-in-out;
