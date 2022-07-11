@@ -1,3 +1,15 @@
+@media (min-width:675px){
+    .conteudo{
+        align-items: initial;
+    }
+    .conteudo #seta-esquerda:hover{
+        box-shadow: #17104125 -6px 0px 40px; 
+    }
+    .conteudo #seta-direita:hover{
+        box-shadow: #17104125 6px 0px 40px; 
+    }    
+}
+
 @media (max-width:1320px) {
     .principal .info a{
         padding: 15px 25px;
@@ -100,9 +112,6 @@
         font-size: 20px;
     }
 
-    .conteudo .setas{
-        width: 90px;
-    }
     .projeto.mostrar{
         display: flex;
         flex-direction: column;
@@ -372,6 +381,24 @@
     }
 }
 
+@media (max-width:430px){
+    .projeto .descricao h3{
+        font-size: 2.2rem;
+        margin-bottom: 7px;
+    }
+    .projeto .descricao p{
+        font-size: 1.3rem;
+    }
+    .projeto .mobile{
+        padding: 12px;
+        border-radius: 15%    
+    }
+    .projeto .mobile img{
+        width: 225px;
+        height: 320px;
+    }
+}
+
 @media (max-width:390px) {
     .principal .info h1{
         font-size: 4.2rem;
@@ -398,18 +425,15 @@
     .projeto{
         max-width: 280px;
     }
-    .projeto .mobile img{
-        width: 235px;
-        height: 330px;
-    }
     .projeto .descricao{
         padding: 10px 20px 0 20px;
     }
     .projeto .descricao h3{
+        font-size: 2rem;
         margin-bottom: 5px;
     }
     .projeto .descricao p{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     .projeto .acesso-projeto .links{
         width: 260px;

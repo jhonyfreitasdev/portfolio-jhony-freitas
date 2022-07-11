@@ -265,6 +265,8 @@ body{
 .conteudo{
     display: flex;
     justify-content:center;
+    align-items: center;
+    padding: 10px;
 }
 
 .conteudo .setas{
@@ -281,14 +283,6 @@ body{
     opacity: 0.3;
 }
 
-.conteudo #seta-esquerda:hover{
-    box-shadow: #17104125 -6px 0px 40px; 
-}
-
-.conteudo #seta-direita:hover{
-    box-shadow: #17104125 6px 0px 40px; 
-}
-
 .conteudo .setas img{
     width: 30px;
 }
@@ -299,6 +293,7 @@ body{
     box-shadow: var(--color03) 1px 1px 50px;
     border-radius: 5px;
     display: none;
+    margin: 0 10px;
     grid:
     "desktop descricao" auto 
     "desktop mobile" auto
