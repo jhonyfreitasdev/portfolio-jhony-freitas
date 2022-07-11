@@ -10,6 +10,7 @@ body{
     padding: 40px 55px;
     max-width: 1950px;
     margin: 0 auto;
+    position: relative;
 }
 
 .cabecalho .logo{
@@ -34,6 +35,60 @@ body{
 
 .cabecalho .menu li a:hover{
     font-weight: 700;
+}
+
+.cabecalho .menu-hamburger{
+    display: none;
+    width: 60px;
+    height: 60px;
+}
+
+.cabecalho .menu-hamburger span{
+    background-color: #ffffff;
+    width: 30px;
+    height: 2px;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    position: relative;
+    transition: 0.5s ease-in-out;
+}
+
+.cabecalho .menu-hamburger span::before,
+.cabecalho .menu-hamburger span::after{
+    background-color: #ffffff;
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    transition: 0.2s ease-in-out;
+}
+
+.cabecalho .menu-hamburger span::before{
+    top: -10px; 
+}
+
+.cabecalho .menu-hamburger span::after{
+    bottom: -10px;
+}
+
+.cabecalho .menu.versao-hamburger{
+    display: flex;
+    flex-direction: column;
+    background-color: #4342EA;
+    position: absolute;
+    right: 55px;
+    top: 55px;
+    padding: 35px 40px 13px 13px;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+}
+
+.cabecalho .menu.versao-hamburger li{
+    margin-bottom: 15px;
+    font-size: 1.2rem;
 }
 
 

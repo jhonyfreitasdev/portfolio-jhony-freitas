@@ -230,6 +230,16 @@
 }
 
 @media (max-width:675px) {
+    .cabecalho{
+        padding: 40px 50px 100px 50px;
+    }
+    .cabecalho .menu{
+        display: none;
+    }
+    .cabecalho .menu-hamburger{
+        display: block;
+    }
+
     .principal .info{
         width: 100%;
     }
@@ -367,6 +377,10 @@
 }
 
 @media (max-width:390px) {
+    .principal .info h1{
+        font-size: 4.2rem;
+    }
+
     .tecnologias .icones{
         display: grid;
         grid-template: auto auto auto / repeat(2, 40%);
