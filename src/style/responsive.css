@@ -231,7 +231,7 @@
 
 @media (max-width:675px) {
     .cabecalho{
-        padding: 40px 20px 20px 100px;
+        padding: 40px 20px 100px 20px;
     }
     .cabecalho .menu{
         display: none;
