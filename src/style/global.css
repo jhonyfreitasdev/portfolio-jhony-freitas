@@ -74,6 +74,21 @@ body{
     bottom: -10px;
 }
 
+.cabecalho .menu-hamburger .hamburger.ativo{
+    transform: rotate(45deg);
+    left: 15px;
+}
+
+.cabecalho .menu-hamburger .hamburger.ativo::before{
+    transform: rotate(90deg);
+    top:0;
+}
+
+.cabecalho .menu-hamburger .hamburger.ativo::after{
+    transform: rotate(90deg);
+    bottom:0;
+}
+
 .cabecalho .menu.versao-hamburger{
     display: flex;
     flex-direction: column;
@@ -89,21 +104,6 @@ body{
 .cabecalho .menu.versao-hamburger li{
     margin-bottom: 15px;
     font-size: 1.2rem;
-}
-
-.cabecalho .menu-hamburger .hamburger.ativo{
-    transform: rotate(45deg);
-    left: 15px;
-}
-
-.cabecalho .menu-hamburger .hamburger.ativo::before{
-    transform: rotate(90deg);
-    top:0;
-}
-
-.cabecalho .menu-hamburger .hamburger.ativo::after{
-    transform: rotate(90deg);
-    bottom:0;
 }
 
 
