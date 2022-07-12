@@ -43,7 +43,7 @@ body{
     height: 60px;
 }
 
-.cabecalho .menu-hamburger span{
+.cabecalho .menu-hamburger .hamburger{
     background-color: #ffffff;
     width: 30px;
     height: 2px;
@@ -55,8 +55,8 @@ body{
     transition: 0.5s ease-in-out;
 }
 
-.cabecalho .menu-hamburger span::before,
-.cabecalho .menu-hamburger span::after{
+.cabecalho .menu-hamburger .hamburger::before,
+.cabecalho .menu-hamburger .hamburger::after{
     background-color: #ffffff;
     content: "";
     width: 100%;
@@ -66,11 +66,11 @@ body{
     transition: 0.2s ease-in-out;
 }
 
-.cabecalho .menu-hamburger span::before{
+.cabecalho .menu-hamburger .hamburger::before{
     top: -10px; 
 }
 
-.cabecalho .menu-hamburger span::after{
+.cabecalho .menu-hamburger .hamburger::after{
     bottom: -10px;
 }
 
@@ -89,6 +89,21 @@ body{
 .cabecalho .menu.versao-hamburger li{
     margin-bottom: 15px;
     font-size: 1.2rem;
+}
+
+.cabecalho .menu-hamburger .hamburger.ativo{
+    transform: rotate(45deg);
+    left: 15px;
+}
+
+.cabecalho .menu-hamburger .hamburger.ativo::before{
+    transform: rotate(90deg);
+    top:0;
+}
+
+.cabecalho .menu-hamburger .hamburger.ativo::after{
+    transform: rotate(90deg);
+    bottom:0;
 }
 
 
