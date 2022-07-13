@@ -116,9 +116,6 @@
         display: flex;
         flex-direction: column;
     }
-    .projeto .desktop{
-        border-radius: 18%;
-    }
     .projeto .mobile {
         display: none;
     }

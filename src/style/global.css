@@ -309,6 +309,7 @@ body{
     border-radius: 5px;
     display: none;
     margin: 0 10px;
+    filter:contrast(110%);
     grid:
     "desktop descricao" auto 
     "desktop mobile" auto
@@ -325,8 +326,8 @@ body{
     grid-area: desktop;
     justify-self: center;
     align-self: flex-start;
-    border-radius: 21%;
     overflow: hidden;
+    height: 392px;
 }
 
 .projeto .mobile{
