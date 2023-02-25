@@ -2,6 +2,8 @@
  Meu portfólio com meus projetos pessoais.
  
 ## 🔗 Acesso ao projeto
+<a href="https://jhonyfreitasdev.github.io/portfolio-jhony-freitas/" target="_blank">Clique aqui para ir para a página</a>
+
 [<img src="src/gifs/tela.gif">](https://jhonyfreitasdev.github.io/portfolio-jhony-freitas/)
 
 ## 🛠 Skills
